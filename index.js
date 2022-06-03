@@ -1,4 +1,5 @@
 const readline = require("readline");
+function guess(){
 let up = 2
  const input = prompt("What's your username?");
 const ql = readline.createInterface({
@@ -16,4 +17,5 @@ while(true) {
     console.log('Wrong Guess, Sorry Game Over. you guessed', guess,'. The correct answer is', random)
     break
   }
-}
+}}
+guess();
